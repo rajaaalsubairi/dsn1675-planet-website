@@ -55,6 +55,9 @@ img {
     color: #0074D9;
 }
 
+.mars {
+    overflow: hidden;
+}
 
 @media only screen and (min-width:20em) {
     
@@ -78,6 +81,8 @@ img {
     }
     
 }
+
+
     
     
     
