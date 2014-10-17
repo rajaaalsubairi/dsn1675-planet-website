@@ -9,11 +9,23 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
+  
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
+
+@media only screen and (min-width:90em){
+    html {
+        font-size: 110%
+    }
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%
+    }
 }
 
 *, *:before, *:after {
@@ -88,6 +100,10 @@ img {
     overflow: hidden;
     display: block;
 }
+.st {
+    background-color: #e2e2e2;
+}
+
 
 @media only screen and (min-width:20em) {
     
@@ -97,6 +113,10 @@ img {
     
     .nav {
          text-align: center;
+    }
+    
+    .copyright {
+        text-align: center;
     }
 }
 
@@ -110,4 +130,42 @@ img {
         float: left;
     }
     
+    .footernav {
+        float: right;
+    }
+    
+    .copyright {
+        float: left;
+    }
+    
+    .footernav a:after { 
+        content: "•"; 
+        padding-left: .45em;
+    }
+    
+    .footernav li:last-child a:after {
+        content: none;  
+    }
+}
+
+@media only screen and (min-width:60em) {
+    
+    dt {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 12em;
+        clear: left;
+    }
+
+    dd  {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img3 {
+       
+    }
+
 }
