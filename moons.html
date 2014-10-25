@@ -10,15 +10,21 @@
 </head>
 <body>
     
+    <ul class="skip-links">
+        <li><a href="#navigation">Skip to Navigation</a></li>
+        <li><a href="#main">Skip to Main</a></li>
+    </ul>
+
+
     <div class="grid header">
         <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2">
-            <header>
+            <header role="banner">
                 <h1 class="title peta">Mars</h1>
             </header>
         </div>
         <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2">
             <header>
-                <nav>
+                <nav id="navigation" role="navigation">
                     <ul class="nav mega push-0"> 
                         <li><a class="island-1-2" href="index.html">Planet</a></li>
                         <li><a class="island-1-2" href="moons.html">Moons</a></li>
@@ -29,94 +35,99 @@
         </div>
     </div>
     
-    <main>
-         <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-                <h2 class="island-1-2 moon">Moons</h2>
-            </div>
+<main id="main" role="main">
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+            <h2 class="island-1-2 moon">Moons</h2>
         </div>
+    </div>
         
-        <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
 
-                <div class="grid">
-                    <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                        <img class="moonpic1 push" src="images/moon1.jpg" alt="">
-                    </div>
-                    <div class=" gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                        <h2 class="giga">Mars Moon 1</h2>
-                            <p>Enhanced-color HiRISE image of Phobos, showing a series of mostly parallel grooves and crater chains, with its crater Stickney at right</p>
-                    </div>
+            <div class="grid">
+                <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <img class="moonpic1 push" src="images/moon1.jpg" alt="">
                 </div>
-
-                <dl class="mega gutter-1-2">
-                    <dt class="milli">Diameter (km)</dt>
-                    <dd>22.53&nbsp;km</dd>
-                    <dt class="milli">Mass (kg)</dt>
-                    <dd>2×10<sup>15</sup>&nbsp;km</dd>
-                    <dt class="milli">Orbital period</dt>
-                    <dd>11&nbsp;h</dd>
-                </dl>
-
+                <div class=" gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <h2 class="giga">Mars Moon 1</h2>
+                        <p>Enhanced-color HiRISE image of Phobos, showing a series of mostly parallel grooves and crater chains, with its crater Stickney at right</p>
+                </div>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
 
-                <div class="grid">
-                    <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                        <img class="picmoon2 push" src="images/moon2.jpg" alt="">
-                    </div>
-                    <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                        <h2 class="giga">Mars Moon 2</h2>
-                        <p>Enhanced-color HiRISE image of Deimos (not to scale), showing its smooth blanket of regolith.
+            <dl class="mega gutter-1-2">
+                <dt class="milli">Diameter (km)</dt>
+                <dd>22.53&nbsp;km</dd>
+                <dt class="milli">Mass (kg)</dt>
+                <dd>2×10<sup>15</sup>&nbsp;km</dd>
+                <dt class="milli">Orbital period</dt>
+                <dd>11&nbsp;h</dd>
+            </dl>
+
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+
+            <div class="grid">
+                <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <img class="picmoon2 push" src="images/moon2.jpg" alt="">
+                </div>
+                <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <h2 class="giga">Mars Moon 2</h2>
+                    <p>Enhanced-color HiRISE image of Deimos (not to scale), showing its smooth blanket of regolith.
 </p>
-                    </div>
                 </div>
-
-                <dl class="mega gutter-1-2">
-                    <dt class="milli">Diameter (km)</dt>
-                    <dd>12.87&nbsp;km</dd>
-                    <dt class="milli">Mass (kg)</dt>
-                    <dd>10.8×10<sup>15</sup>&nbsp;km</dd>
-                    <dt class="milli">Orbital period</dt>
-                    <dd>30&nbsp;h</dd>
-                </dl>
-
             </div>
+
+            <dl class="mega gutter-1-2">
+                <dt class="milli">Diameter (km)</dt>
+                <dd>12.87&nbsp;km</dd>
+                <dt class="milli">Mass (kg)</dt>
+                <dd>10.8×10<sup>15</sup>&nbsp;km</dd>
+                <dt class="milli">Orbital period</dt>
+                <dd>30&nbsp;h</dd>
+            </dl>
+
         </div>
+    </div>
         
-        <div class="st">
-                <h2 class="island-1-2">Solar Transits</h2>
+    <div class="st">
+        <h2 class="island-1-2">Solar Transits</h2>
     
             
-            <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4">
-                    <img class="push gutter-1-2" src="images/moons3.jpg" alt="">
-                </div>
-                <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-4">
-                    <p>An observer situated on the Martian surface, in a position to observe Phobos, would see regular transits of the moon across the Sun. Several of these transits have been photographed by the Mars Rover Opportunity. During the transits, Phobos's shadow is cast on the surface of Mars; an event which has been photographed by several spacecraft. Phobos is not large enough to cover the Sun's disk, and so cannot cause a total eclipse.</p>
-                 </div>
-                 <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-                <p class="note mega">Phobos orbits Mars 4 times faster than Deimos.</p>
-                 </div>
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4">
+                <img class="push gutter-1-2" src="images/moons3.jpg" alt="">
             </div>
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-4">
+                <p>An observer situated on the Martian surface, in a position to observe Phobos, would see regular transits of the moon across the Sun. Several of these transits have been photographed by the Mars Rover Opportunity. During the transits, Phobos's shadow is cast on the surface of Mars; an event which has been photographed by several spacecraft. Phobos is not large enough to cover the Sun's disk, and so cannot cause a total eclipse.</p>
+             </div>
+             <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <p class="note mega">Phobos orbits Mars 4 times faster than Deimos.</p>
+             </div>
         </div>
-    </main>
+    </div>
+</main>
     
     <div class="grid footer">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2">
-            <footer class="pad-t-1-2 gutter-1-2 copyright">
+            <footer role="contentinfo" class="pad-t-1-2 gutter-1-2 copyright">
                     <p class="milli push-0">©2014 Mars planetary Consortium</p>
             </footer>
+            
+            <ul class="top pad-t-1-2 gutter-1-2">
+                <li><a href="#navigation">Top</a></li>
+            </ul>
+            
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2">
             <footer class="island-1-2 footernav">
                 <ul class="nav milli push-0"> 
-                    <li><a href="index.html">Planet</a></li>
-                    <li><a href="moons.html">Moons</a></li>
-                    <li><a href="#">Exploration</a></li>
+                    <li><a class="islands-1-2 bullet" href="index.html">Planet</a></li>
+                    <li><a class="islands-1-2" href="moons.html">Moons</a></li>
+                    <li><a class="islands-1-2" href="exploration.html">Exploration</a></li>
                 </ul>
             </footer>
         </div>    
-    </div> 
+    </div>
 </body>
 </html>
