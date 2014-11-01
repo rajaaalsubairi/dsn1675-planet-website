@@ -155,6 +155,58 @@ img {
     background-color: #e2e2e2;
 }
 
+label {
+    display: block;
+}
+
+input + label{
+    display: inline-block;
+}
+
+form {
+    background-color: #efefef;
+    overflow: hidden;
+}
+
+.form-intro {
+    text-align: center;
+}
+
+#age {
+    width: 20em;
+    height: 2em;
+}
+
+#email {
+    width: 20em;
+    height: 2em;
+}
+
+#name {
+    width: 20em;
+    height: 2em;
+}
+ 
+#text {
+    width: 20em;
+    height: 20em;
+}
+
+.opt {
+    white-space: nowrap;
+    display: block;
+}
+    
+button {
+    border: 1px solid #e2e2e2;
+    border-radius: 0px;
+    font-size: 1.5em;
+    background-image: linear-gradient(0deg,#fff,#efefef);
+    cursor:pointer;
+}
+
+.button {
+    text-align: center;
 
 @media only screen and (min-width:20em) {
     
@@ -168,6 +220,30 @@ img {
     
     .copyright {
         text-align: center;
+    }
+    
+    .opt {
+        display: inline-block;
+    }
+    
+    #age {
+        width: 60em;
+        height: 2em;
+    }
+
+    #email {
+        width: 60em;
+        height: 2em;
+    }
+
+    #name {
+        width: 60em;
+        height: 2em;
+    }
+ 
+    #text {
+        width: 60em;
+        height: 20em;
     }
 }
 
@@ -197,6 +273,26 @@ img {
     .footernav li:last-child a:after {
         content: none;  
     }
+    
+    #age {
+        width: 80em;
+        height: 2em;
+    }
+
+    #email {
+        width: 80em;
+        height: 2em;
+    }
+
+    #name {
+        width: 80em;
+        height: 2em;
+    }
+ 
+    #text {
+        width: 80em;
+        height: 20em;
+    }
 }
 
 @media only screen and (min-width:60em) {
@@ -213,6 +309,26 @@ img {
         float: left;
         margin: 0;
         padding: 0;
+    }
+    
+    #age {
+        width: 110em;
+        height: 2em;
+    }
+
+    #email {
+        width: 110em;
+        height: 2em;
+    }
+
+    #name {
+        width: 110em;
+        height: 2em;
+    }
+ 
+    #text {
+        width: 110em;
+        height: 20em;
     }
 
 }
