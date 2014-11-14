@@ -94,7 +94,7 @@ img {
 }
 
 .header {
-    background-color: #ccc;
+    background-color: white;
     overflow: hidden;
     display: block;
     
@@ -116,7 +116,7 @@ img {
 
 .nav a {
     text-decoration: none;
-    color: #0074D9;
+    color: #ADD2D8;
     display: block;
     overflow: hidden;
 }
@@ -126,33 +126,33 @@ img {
 }
 
 .intro {
-    background-color: #e2e2e2;
+    background-color: #ADD2D8;
     text-align: center;
     overflow: hidden;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #ADD2D8;
     display: block;
     overflow: hidden;
 }
 
 .chara {
-    background-color: #e2e2e2;
+    background-color:white;
 }
 
 .pics-3 {
-    background-color: #efefef;
+    background-color: #ADD2D8;
 }
 
 .moon {
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #ADD2D8;
     overflow: hidden;
     display: block;
 }
 .st {
-    background-color: #e2e2e2;
+    background-color: #ADD2D8;
 }
 
 label {
@@ -164,7 +164,7 @@ input + label{
 }
 
 form {
-    background-color: #efefef;
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -198,15 +198,39 @@ form {
 }
     
 button {
-    border: 1px solid #e2e2e2;
+    border: 1px solid #ADD2D8;
     border-radius: 0px;
     font-size: 1.5em;
-    background-image: linear-gradient(0deg,#fff,#efefef);
+    background-image: linear-gradient(0deg,#fff,#ADD2D8);
     cursor:pointer;
 }
 
 .button {
     text-align: center;
+}
+
+.nav a,
+.nav a:linked,
+.nav a:visted{
+    display:block;
+    color: #ADD2D8;
+    text-decoration: none;
+}
+    
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited{
+    background-color: #ADD2D8;
+    color: #fff;
+}
+
+
+.pc {
+    color: #ADD2D8;
+}
 
 @media only screen and (min-width:20em) {
     
